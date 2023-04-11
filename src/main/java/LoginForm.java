@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author Jehan
@@ -15,7 +14,7 @@ public class LoginForm extends javax.swing.JFrame {
     public LoginForm() {
         initComponents();
         this.setLocationRelativeTo(null);
-        jLabel1_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("")));
+        jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/car.jpg"));
     }
 
     /**
