@@ -69,7 +69,7 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jTextField1_username" max="32767" attributes="0"/>
                                   </Group>
-                                  <Component id="jButton1" max="32767" attributes="0"/>
+                                  <Component id="jButton1_login" max="32767" attributes="0"/>
                                   <Group type="102" attributes="0">
                                       <Component id="jLabel2_title" min="-2" pref="227" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
@@ -78,7 +78,7 @@
                                       <Component id="jLabel4_pass" min="-2" pref="32" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jCheckBox1_pass" min="-2" max="-2" attributes="0"/>
                                           <Component id="jPasswordField1" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -87,7 +87,7 @@
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jLabel5" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="jLabel5_close" min="-2" pref="38" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -97,7 +97,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel1_logo" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Component id="jLabel5" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="jLabel5_close" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       <Component id="jLabel2_title" min="-2" pref="68" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
@@ -111,9 +111,9 @@
                           <Component id="jLabel4_pass" pref="52" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCheckBox1_pass" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
-                      <Component id="jButton1" min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="jButton1_login" min="-2" pref="74" max="-2" attributes="0"/>
                       <EmptySpace pref="112" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -164,15 +164,15 @@
                 <Property name="opaque" type="boolean" value="true"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+            <Component class="javax.swing.JCheckBox" name="jCheckBox1_pass">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Show Password"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1_passActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="jButton1_login">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="99" red="0" type="rgb"/>
@@ -187,10 +187,10 @@
                 <Property name="opaque" type="boolean" value="true"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1_loginActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel5">
+            <Component class="javax.swing.JLabel" name="jLabel5_close">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="36" style="1"/>
