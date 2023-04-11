@@ -15,6 +15,7 @@ public class LoginForm extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/car.jpg"));
+        
     }
 
     /**
