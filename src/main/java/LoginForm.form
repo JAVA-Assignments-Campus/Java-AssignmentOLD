@@ -67,12 +67,12 @@
                                   <Component id="jButton1_login" max="32767" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jLabel3_user" pref="54" max="32767" attributes="0"/>
+                                          <Component id="jLabel3_user" pref="64" max="32767" attributes="0"/>
                                           <Component id="jLabel4_pass" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jTextField1_username" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextField1_username" max="32767" attributes="0"/>
                                           <Component id="jPasswordField1" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -105,16 +105,16 @@
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       <Component id="jLabel2_title" min="-2" pref="68" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jLabel3_user" min="-2" pref="52" max="-2" attributes="0"/>
-                          <Component id="jTextField1_username" min="-2" pref="52" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jLabel4_pass" max="32767" attributes="0"/>
-                          <Component id="jPasswordField1" pref="52" max="32767" attributes="0"/>
+                          <Component id="jTextField1_username" pref="58" max="32767" attributes="0"/>
+                          <Component id="jLabel3_user" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPasswordField1" pref="58" max="32767" attributes="0"/>
+                          <Component id="jLabel4_pass" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jCheckBox1_pass" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                       <Component id="jButton1_login" min="-2" pref="74" max="-2" attributes="0"/>
@@ -147,16 +147,6 @@
                 </Property>
                 <Property name="opaque" type="boolean" value="true"/>
               </Properties>
-            </Component>
-            <Component class="javax.swing.JTextField" name="jTextField1_username">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI Historic" size="24" style="0"/>
-                </Property>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1_usernameActionPerformed"/>
-              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4_pass">
               <Properties>
@@ -202,12 +192,22 @@
                 <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
             </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1_username">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Historic" size="24" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
             <Component class="javax.swing.JPasswordField" name="jPasswordField1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI Historic" size="24" style="0"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPasswordField1ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
