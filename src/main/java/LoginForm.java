@@ -90,6 +90,11 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel5_close.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5_close.setText("x");
         jLabel5_close.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        jLabel5_close.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel5_closeMouseClicked(evt);
+            }
+        });
 
         jTextField1_username.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
 
@@ -189,6 +194,11 @@ public class LoginForm extends javax.swing.JFrame {
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
+
+    private void jLabel5_closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5_closeMouseClicked
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_jLabel5_closeMouseClicked
 
     /**
      * @param args the command line arguments
