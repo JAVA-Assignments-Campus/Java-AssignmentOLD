@@ -227,6 +227,11 @@ public class LoginForm extends javax.swing.JFrame {
 
     private void jTextField1_usernameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1_usernameFocusLost
         // TODO add your handling code here:
+        if(jTextField1_username.getText().trim().toLowerCase().equals("username") || 
+           jTextField1_username.getText().trim().toLowerCase().equals(""))
+        {
+        
+        }
     }//GEN-LAST:event_jTextField1_usernameFocusLost
 
     private void jPasswordField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusGained
