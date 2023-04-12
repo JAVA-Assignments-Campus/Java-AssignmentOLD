@@ -15,8 +15,8 @@ public class LoginForm extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
-        jLabel3_user.setIcon(new javax.swing.ImageIcon("/images/user.png"));
-        jLabel4_pass.setIcon(new javax.swing.ImageIcon("/images/padlock.png"));
+        jLabel3_user.setIcon(new javax.swing.ImageIcon("/images/user50.png"));
+
         
     }
 
@@ -52,7 +52,6 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel2_title.setText("Login");
 
         jLabel3_user.setBackground(new java.awt.Color(255, 51, 51));
-        jLabel3_user.setText("x");
         jLabel3_user.setOpaque(true);
 
         jTextField1_username.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
@@ -63,7 +62,6 @@ public class LoginForm extends javax.swing.JFrame {
         });
 
         jLabel4_pass.setBackground(new java.awt.Color(255, 51, 51));
-        jLabel4_pass.setText("x");
         jLabel4_pass.setOpaque(true);
 
         jCheckBox1_pass.setText("Show Password");
@@ -101,20 +99,22 @@ public class LoginForm extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel3_user, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField1_username))
                             .addComponent(jButton1_login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel2_title, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(183, 183, 183))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel4_pass, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabel3_user, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                                    .addComponent(jLabel4_pass, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox1_pass)
-                                    .addComponent(jPasswordField1))))
+                                    .addComponent(jTextField1_username)
+                                    .addComponent(jPasswordField1)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2_title, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(38, 38, 38)
+                                        .addComponent(jCheckBox1_pass)))
+                                .addGap(183, 183, 183)))
                         .addGap(0, 84, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -133,8 +133,8 @@ public class LoginForm extends javax.swing.JFrame {
                     .addComponent(jTextField1_username, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPasswordField1)
-                    .addComponent(jLabel4_pass, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE))
+                    .addComponent(jLabel4_pass, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jCheckBox1_pass)
                 .addGap(78, 78, 78)
