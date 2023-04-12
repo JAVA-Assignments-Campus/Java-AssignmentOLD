@@ -18,6 +18,7 @@ public class Form_DashBoard extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         
         jLabel_std_logo.setIcon(new javax.swing.ImageIcon("/images/std.png"));
+        jLabel_lec_logo.setIcon(new javax.swing.ImageIcon("/images/teacher.png"));
     }
 
     /**
