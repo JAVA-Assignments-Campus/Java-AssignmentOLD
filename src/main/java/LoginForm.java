@@ -97,6 +97,7 @@ public class LoginForm extends javax.swing.JFrame {
         });
 
         jTextField1_username.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
+        jTextField1_username.setText("Username");
         jTextField1_username.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jTextField1_usernameFocusGained(evt);

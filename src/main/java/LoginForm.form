@@ -206,6 +206,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI Historic" size="24" style="0"/>
                 </Property>
+                <Property name="text" type="java.lang.String" value="Username"/>
               </Properties>
               <Events>
                 <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTextField1_usernameFocusGained"/>
