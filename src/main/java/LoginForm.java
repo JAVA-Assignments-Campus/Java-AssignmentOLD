@@ -230,7 +230,8 @@ public class LoginForm extends javax.swing.JFrame {
         if(jTextField1_username.getText().trim().toLowerCase().equals("username") || 
            jTextField1_username.getText().trim().toLowerCase().equals(""))
         {
-        
+            jTextField1_username.setText("username");
+            jTextField1_username.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField1_usernameFocusLost
 
