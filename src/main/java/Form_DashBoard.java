@@ -43,15 +43,19 @@ public class Form_DashBoard extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(51, 102, 255));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Menu Item 1");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Menu Item 1");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Menu Item 1");
 
         jLabel5.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Menu Item 1");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
