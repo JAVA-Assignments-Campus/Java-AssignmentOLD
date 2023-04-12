@@ -52,9 +52,11 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel2_title.setText("Login");
 
         jLabel3_user.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel3_user.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3_user.setOpaque(true);
 
         jLabel4_pass.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel4_pass.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4_pass.setOpaque(true);
 
         jCheckBox1_pass.setText("Show Password");
@@ -102,12 +104,12 @@ public class LoginForm extends javax.swing.JFrame {
                             .addComponent(jButton1_login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel3_user, javax.swing.GroupLayout.DEFAULT_SIZE, 64, Short.MAX_VALUE)
+                                    .addComponent(jLabel3_user, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE)
                                     .addComponent(jLabel4_pass, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField1_username)
-                                    .addComponent(jPasswordField1)))
+                                    .addComponent(jPasswordField1)
+                                    .addComponent(jTextField1_username)))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel2_title, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
