@@ -50,6 +50,7 @@ public class Form_DashBoard extends javax.swing.JFrame {
         jLabel_lec_count = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
 
