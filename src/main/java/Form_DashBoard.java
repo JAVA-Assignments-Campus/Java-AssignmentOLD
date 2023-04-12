@@ -98,6 +98,10 @@ public class Form_DashBoard extends javax.swing.JFrame {
             }
         });
 
+        jPanel4.setBackground(new java.awt.Color(0, 0, 0));
+
+        jPanel5.setBackground(new java.awt.Color(102, 102, 102));
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
