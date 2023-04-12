@@ -1,3 +1,8 @@
+
+import java.awt.Color;
+import javax.swing.BorderFactory;
+import javax.swing.border.Border;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -17,6 +22,9 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
         jLabel3_user.setIcon(new javax.swing.ImageIcon("/images/user50.png"));
         jLabel4_pass.setIcon(new javax.swing.ImageIcon("/images/pass50.png"));
+        
+        Border title_border = BorderFactory.createMatteBorder(0, 0, 3, 0, Color.YELLOW);
+        jLabel2_title.setBorder(title_border);
 
         
     }
