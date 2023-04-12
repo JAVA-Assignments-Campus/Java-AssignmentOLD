@@ -221,6 +221,7 @@ public class LoginForm extends javax.swing.JFrame {
         if(jTextField1_username.getText().trim().toLowerCase().equals("username"))
         {
             jTextField1_username.setText("");
+            jTextField1_username.setForeground(Color.black);
         }
     }//GEN-LAST:event_jTextField1_usernameFocusGained
 
@@ -230,6 +231,12 @@ public class LoginForm extends javax.swing.JFrame {
 
     private void jPasswordField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusGained
         // TODO add your handling code here:
+        String password = String.valueOf(jPasswordField1.getPassword());
+        if(password.trim().toLowerCase().equals("password"))
+        {
+            jPasswordField1.setText("");
+            jPasswordField1.setForeground(Color.black);
+        }
     }//GEN-LAST:event_jPasswordField1FocusGained
 
     private void jPasswordField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusLost
