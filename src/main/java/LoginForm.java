@@ -15,6 +15,8 @@ public class LoginForm extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
+        jLabel3_user.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
+        jLabel4_pass.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
         
     }
 
