@@ -14,6 +14,8 @@ public class Form_DashBoard extends javax.swing.JFrame {
      */
     public Form_DashBoard() {
         initComponents();
+        
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -40,7 +42,7 @@ public class Form_DashBoard extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel3.setBackground(new java.awt.Color(51, 102, 255));
+        jPanel3.setBackground(new java.awt.Color(51, 153, 255));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
